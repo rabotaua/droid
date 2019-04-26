@@ -16,4 +16,5 @@ ENV ANDROID_HOME=/android-sdk
 ENV PATH=$PATH:$ANDROID_HOME/tools/bin
 ENV PATH=$PATH:$ANDROID_HOME/platform-tools
 
+
 RUN yes | sdkmanager --licenses
